@@ -1,0 +1,182 @@
+extends layout
+
+block css
+	link(rel='stylesheet', href='/stylesheets/resume.css')
+
+block content
+	header
+		.pdf.text-right
+			a(href='/')
+				i.fa.fa-file &nbspPDF
+		.container-fluid
+			.row
+				.text-center
+					h1. Terry Chen
+			.row
+				.col-sm-4
+					.text-center
+						i.fa.fa-globe
+							a(href='/') &nbspterrychen.me
+				.col-sm-4
+					.text-center
+						i.fa.fa-envelope-o 
+							a(href='mailto:masterterrychen@gmail.com') &nbspmasterterrychen.gmail.com
+				.col-sm-4
+					.text-center
+						i.fa.fa-mobile &nbsp&nbsp+1 519 781 6776
+		hr
+
+	.container-fluid
+		.row
+			.col-xs-3.fixed
+				h4.text-left Skills
+				hr.side
+				
+				.text-left.skillTitle Language
+				ul
+					.row.skillRow
+						.col-md-6
+							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp 
+								span Javascript
+							br
+							li.switchleft.wk-filetrek
+								span Python
+							br
+							li.switchleft.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp
+								span PHP
+						.col-md-6
+							li.switchleft.wk-tdsb
+								span C#
+							br
+							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp
+								span HTML
+							br
+							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp
+								span CSS
+				
+				.text-left.skillTitle Framework/Platform
+				ul
+					.row
+						.col-md-6
+							li.switchleft.wk-filetrek
+								span Node.js
+							br						
+							li.switchleft.proj-languify.proj-storyline
+								span Laravel
+							br
+							li.switchleft.wk-filetrek
+								span CasperJS
+						.col-md-6		
+							li.switchleft.wk-filetrek
+								span Hippie.js
+							br
+							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork
+								span jQuery
+				.text-left.skillTitle Database
+				ul
+					.row
+						.col-md-6
+							li.switchleft.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp
+								span MySQL
+						.col-md-6
+							li.switchleft.wk-filetrek
+								span MongoDB
+				.text-left.skillTitle Tools
+				ul
+					.row
+						.col-md-6
+							li.switchleft.wk-filetrek.wk-tdsb.wk-bb.proj-storyline.proj-cubicwork.proj-hitchippp
+								span Windows
+							br
+							li.switchleft.wk-filetrek
+								span Ubuntu(AWS)
+							br
+							li.switchleft.wk-filetrek.proj-languify
+								span Mac OS X
+						.col-md-6
+							li.switchleft.wk-filetrek.proj-languify
+								span Git
+							br
+							li.switchleft.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp
+								span Photoshop
+							br
+							li.switchleft.wk-tdsb.proj-languify.proj-storyline
+								span Illustrator
+				.text-left.skillTitle CMS
+				ul
+					.row
+						.col-md-6
+							li.switchleft.proj-cubicwork
+								span Joomla
+						.col-md-6
+							li.switchleft.wk-tdsb
+								span DotNetNuke
+			.col-xs-9.rightta
+				h4.text-left Work Experience
+				hr
+				ul
+					div.switchright.wk-filetrek
+						li Software Engineer Intern, FileTrek Software Inc, Ottawa, ON, Jan 2014 – Apr 2014
+							ul
+								li Developed a web application which serves as a UI for automatic testing environment using Node.js and MongoDB
+								li Developed API and UI testing utilities using CasperJS and Hippie.js
+						br
+					div.switchright.wk-tdsb
+						li Web Developer Intern, Toronto District School Board, Toronto, ON, May 2013 - Aug 2013
+							ul
+								li Developed DotNetNuke modules for TDSB’s new web application using C# and ASP.net
+								li Improved/Developed interactive web UI using jQuery
+						br
+					div.switchright.wk-bb
+						li Data Analyst Intern, BlackBerry, Waterloo, ON, Sept 2012 - Dec 2012
+							ul
+								li Conducted data analysis on hardware performance for BlackBerry mobile devices
+								li Automated statistical analysis in Excel (VBA) which reduced processing time by 60%
+						br
+					div.switchright.wk-tiercon
+						li Manufacturing Engineer Intern, Tiercon Corporation, Hamilton, ON, Jan 2012 - Apr 2012
+							ul
+								li Implemented and maintained manufacturing process improvement projects
+						br
+					div.switchright.wk-teknion
+						li Manufacturing Engineer Intern, Teknion Corporation, Toronto, ON, June 2011 - Aug 2011
+							ul
+								li 3D modeling design using SolidWorks, AutoCad, and Pro/Engineer
+				h4.text-left Side Projects
+				hr
+				ul
+					div.switchright.proj-languify
+						li Languify
+							ul
+								li A developer tool for easy web app internationalization (php, Javascript, MySQL)
+						br
+					div.switchright.proj-storyline
+						li StoryLine
+							ul
+								li a story writing, group collaborating, source managing web application (php, Javascript, MySQL)
+						br
+					div.switchright.proj-cubicwork
+						li CubicWork
+							ul
+								li an online 3D print shop and 3D model trading platform ( Joomla, php, Javascript, MySQL)
+						br
+					div.switchright.proj-hitchippp 
+						li Hitchippo
+							ul
+								li a ride-sharing web application ( php, Javascript, MySQL)
+				h4.text-left Education
+				hr
+				ul
+					li Candidate for Bachelor of Applied Science, Management Engineering specialized in Computer Science, University of Waterloo, ON, Sept 2010 – present
+					ul
+						li Courses
+						ul
+							li Algorithms and Data Structures
+							li Database Systems
+							li Information Systems Analysis and Design
+							li Human Computer Interaction
+						li Academic Award
+						ul
+							li Faculty of Engineering, Dean's Honour List (2012)
+block js
+	script(src="/javascripts/resume.js")

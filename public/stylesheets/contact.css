@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{
+	background-color: rgba(160, 206, 148, 0.9);
+	font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
+	font-weight: 300;
+}
+
+div.navi{
+	/*color:white;*/
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 30%;
+}
+
+.inputBody, .inputSubject, .inputEmail{
+	border: 0px;
+	margin-top: 10px;
+}
+
+.sendMail{
+	color: white;
+	border: 0px;
+	background-color: rgb(53, 148, 49);
+}
+
+.title{
+	color: white;
+}
+/*
+a, a:hover{
+	color:white;
+	text-decoration: none;
+}
+*/
+
+i.fa-skype, i.fa-linkedin-square{
+	cursor:pointer;
+	color:black;
+}
+

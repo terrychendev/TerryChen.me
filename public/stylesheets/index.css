@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{
+	background-color: rgba(160, 206, 148, 0.9);
+	font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
+	font-weight: 300;
+}
+
+div.navi{
+	color:white;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 30%;
+}
+
+a, a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+div.intro{
+	font-size: 20px;
+	width: 70%;
+	float: right;
+	text-align: justify;
+	/*border: dashed 2px white;
+	padding: 15px;
+	border-radius: 24px;*/
+}
+
+div.manu{
+	width:30%;
+	float:left;
+}

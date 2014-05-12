@@ -1,0 +1,29 @@
+extends layout
+
+block css
+	link(rel='stylesheet', href='/stylesheets/contact.css')
+
+block content
+	header
+	.container-fluid
+		.row
+			.col-xs-12.navi
+				.row
+					.title To: masterterrychen@gmail.com
+					br
+					input.inputSubject(type='text', name='subject', placeholder='subject')
+					br
+					input.inputEmail(type='text', name='email', placeholder='your email')
+					br
+					textarea.inputBody(name='body', rows='5', cols='20', placeholder="what's up")
+					br
+					button.sendMail Send
+					br
+					i.fa.fa-skype &nbsp
+					a(href="http://ca.linkedin.com/pub/terry-chen/2b/695/ab7/")
+						i.fa.fa-linkedin-square
+					br
+					.skype
+
+block js
+	script(src='/javascripts/contact.js')
