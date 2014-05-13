@@ -1,8 +1,7 @@
 
 function switchRight(ev){
-
-	console.log("1")
-	var item = ev.target.className.split(" ");
+	
+	var item = ev.currentTarget.className.split(" ");
 	$("div.switchright").css("opacity", "0.5");
 	$.each(item, function (index, value){
 		if ( index > 0 ){
@@ -25,7 +24,7 @@ function switchAll(ev){
 }
 
 function returnBack(){
-	console.log("3")
+
 	$("div.switchright").css("opacity", "1");
 	$("li.switchleft").css("opacity", "1");
 }
