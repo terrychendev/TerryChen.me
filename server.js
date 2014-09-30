@@ -2,7 +2,7 @@
 /**
  * Module dependencies.
  */
-var environments = "development";
+var environments = "production";
 
 var express = require('express');
 var navi = require('./routes/navigation');
