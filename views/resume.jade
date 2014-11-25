@@ -7,11 +7,13 @@ block content
 	header
 		.pdf.text-right
 			a(href='/resume.pdf')
-				i.fa.fa-file &nbspPDF
+				i.fa.fa-print &nbspPDF
 		.container-fluid
 			.row
 				.text-center
-					h1. Terry Chen
+					h1
+						a.home(href='/') Terry Chen
+					hr
 			.row
 				.col-sm-3
 					.text-center
@@ -46,44 +48,44 @@ block content
 							li.switchleft.wk-zulily
 								span Java
 							br
-							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance
+							li.switchleft.wk-interset.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.proj-wheelzo
 								span Javascript
 							br
-							li.switchleft.wk-filetrek.wk-zulily
+							li.switchleft.wk-interset
 								span Python
 						.col-md-6
-							li.switchleft.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance
+							li.switchleft.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.proj-wheelzo
 								span PHP
 							br
-							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance
+							li.switchleft.wk-interset.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.proj-wheelzo
 								span HTML
 							br
-							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance
+							li.switchleft.wk-interset.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.proj-wheelzo
 								span CSS
 				
 				.text-left.skillTitle Frameworks and Platforms
 				ul
 					.row
 						.col-md-6
-							li.switchleft.wk-filetrek
+							li.switchleft.wk-interset.proj-wheelzo
 								span Node.js
 							br						
-							li.switchleft.proj-languify.proj-storyline
-								span Laravel
+							li.switchleft.wk-zulily
+								span Dropwizard
 							br
 							li.switchleft.wk-zulily
 								span Apache Avro
 							br
-							li.switchleft.wk-filetrek.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-freelance
+							li.switchleft.wk-interset.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-freelance
 								span jQuery
 						.col-md-6
-							li.switchleft.wk-filetrek
+							li.switchleft.wk-interset
 								span CasperJS
 							br
-							li.switchleft.wk-filetrek
+							li.switchleft.wk-interset
 								span D3.js
 							br
-							li.switchleft.wk-filetrek
+							li.switchleft.wk-interset
 								span Hippie.js
 							br
 							li.switchleft.proj-cubicwork.proj-freelance
@@ -93,29 +95,35 @@ block content
 				ul
 					.row
 						.col-md-6
-							li.switchleft.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.wk-zulily
+							li.switchleft.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.wk-zulily.proj-wheelzo
 								span MySQL
 							br
-							li.switchleft.wk-zulily
+							li.switchleft.wk-zulily.wk-tdsb
 								span SQL Server
 						.col-md-6
-							li.switchleft.wk-filetrek
+							li.switchleft.wk-zulily
+								span Google BigQuery
+							br
+							li.switchleft.wk-interset
 								span MongoDB
 				.text-left.skillTitle Tools and Operating Systems
 				ul
 					.row
 						.col-md-6
-							li.switchleft.wk-filetrek.wk-tdsb.wk-bb.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.wk-zulily
+							li.switchleft.wk-interset.wk-tdsb.wk-bb.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance.wk-zulily
 								span Windows
 							br
-							li.switchleft.wk-filetrek.wk-zulily
-								span Linxu
+							li.switchleft.wk-interset.wk-zulily.proj-wheelzo
+								span Linux
 							br
-							li.switchleft.wk-filetrek.proj-languify.wk-zulily
+							li.switchleft.wk-interset.proj-languify.wk-zulily.proj-wheelzo
 								span Mac
 						.col-md-6
-							li.switchleft.wk-filetrek.proj-languify.wk-zulily
+							li.switchleft.wk-interset.proj-languify.wk-zulily.proj-wheelzo.proj-storyline
 								span Git
+							br
+							li.switchleft.wk-zulily
+								span RabbitMq
 							br
 							li.switchleft.wk-tdsb.proj-languify.proj-storyline.proj-cubicwork.proj-hitchippp.proj-freelance
 								span Photoshop
@@ -126,20 +134,21 @@ block content
 					div.switchright.wk-zulily
 						li
 							| Software Engineer Intern, 
-							a(href='http://zulily.com' target='_blank') zulily Inc
+							a(href='http://zulily.com' target='_blank') zulily
 							| , Seattle, WA, August 2014 - Present
 							ul
-								li Developing software features for company’s fulfilment centers in C# and Java
-								li Architecting a data transmission system to collect and pipe operational data across different fulfillment centers into a data warehouse
+								li Developing client-facing features on a large-scale software to function fulfilment center operations
+								li Working on a real-time data pipeline that handles millions of operational events everyday across different fulfillment centers
+								li Building operational analytics to help visualize fulfillment center productivities
 						br
-					div.switchright.wk-filetrek
+					div.switchright.wk-interset
 						li
 							| Software Engineer Intern, 
-							a(href='http://interset.com' target='_blank') FileTrek Inc
+							a(href='http://interset.com' target='_blank') Interset
 							| , Ottawa, ON, Jan 2014 – Apr 2014
 							ul
-								li Designed and launched a web application to interface company’s software testing environment with Node.js, MongoDB, and Javascript libraries
-								li Developed software unit and UI testing tools with Javascript frameworks
+								li Launched a web app that interfaced with software testing environments, and provided real-time testing and reporting
+								li Developed software unit and UI testing suites
 						br
 					div.switchright.wk-tdsb
 						li
@@ -147,8 +156,8 @@ block content
 							a(href='http://tdsb.on.ca' target='_blank') Toronto District School Board
 							| , Toronto, ON, May 2013 - Aug 2013
 							ul
-								li Developed company’s web application features using C# and ASP.net
-								li Designed and implemented web user interface with Javascript libraries
+								li Developed client-facing features on a web application that was being used by students and parents in Toronto
+								li Improved web user interface with Javascript libraries
 						br
 					div.switchright.wk-bb
 						li
@@ -157,12 +166,12 @@ block content
 							| , Waterloo, ON, Sept 2012 - Dec 2012
 							ul
 								li Conducted testing on BlackBerry mobile devices, and analyzed hardware failure data
-								li Programmed to automate statistical analysis in Excel (VBA), and reduced processing time by 60%
+								li Abandoned manual data processing by automating analysis in Excel Macro
 						br
 					div.switchright.wk-tiercon
 						li
 							| Manufacturing Engineer Intern, 
-							a(href='http://tiercon.com' target='_blank') Tiercon Corporation
+							a(href='http://tiercon.com' target='_blank') Tiercon
 							| , Hamilton, ON, Jan 2012 - Apr 2012
 							ul
 								li Managed and implemented process improvement projects
@@ -170,48 +179,49 @@ block content
 					div.switchright.wk-teknion
 						li
 							| Manufacturing Engineer Intern, 
-							a(href='http://www.teknion.com' target='_blank') Teknion Corporation
+							a(href='http://www.teknion.com' target='_blank') Teknion
 							| , Toronto, ON, June 2011 - Aug 2011
 							ul
-								li Conducted 3D modeling designs using SolidWorks, AutoCad, and Pro/Engineer
+								li Worked on 3D modeling from designs to implementations with AutoCad, SolidWorks, and Pro/E
 				h4.text-left Side Projects
 				hr
 				ul
+					div.switchright.proj-wheelzo
+						li 
+							a(href='http://wheelzo.com' target='_blank') Wheelzo
+							| , Apr 2014 - Present
+							ul
+								li An app that helps people easily share rides
+								li Acquired market traction with Natural Language Processing techniques
+								li Over 1k facebook registered users
+						br
 					div.switchright.proj-languify
 						li 
 							a(href='http://beta.languify.me' target='_blank') Languify
+							| , Feb 2014 - Apr 2014
 							ul
 								li A developer tool for easy web app internationalization
 						br
 					div.switchright.proj-storyline
 						li 
 							a(href='http://storyline.terrychen.us' target='_blank') StoryLine
+							| , May 2013 - Sept 2013
 							ul
-								li A story writing, group collaborating, source managing web application
+								li A story writing, group collaborating, source managing web app
 						br
 					div.switchright.proj-cubicwork
 						li
 							a(href='http://cubicwork.com' target='_blank') CubicWork
+							| , Sept 2012 - Apr 2013
 							ul
 								li An online 3D print shop and 3D model trading platform
 						br
-					div.switchright.proj-hitchippp
-						li Hitchippo
-							ul
-								li A ride-sharing web application
-						br
-					div.switchright.proj-freelance
-						li Freelance Contracts
-							ul
-								li Helped small businesses and restaurants build their online solutions
-
 				h4.text-left Education
 				hr
 				ul
-					li Candidate for Bachelor of Applied Science, Management Engineering specialized in Computer Science, University of Waterloo, Waterloo, ON, Sept 2010 – present (Class of April 2015)
-					ul
-						li Academic Award
-						ul
-							li Faculty of Engineering, Dean's Honour List (2012)
+					li
+						| B.AS., Management Engineering, 
+						a(href='http://beta.languify.me' target='_blank') University of Waterloo
+						| , Sept 2010 - Apr 2015
 block js
 	script(src="/javascripts/resume.js")

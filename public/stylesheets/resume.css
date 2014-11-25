@@ -1,7 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 hr{
 	margin-top:10px;
 	margin-bottom: 15px;
 
+}
+
+a.home:hover, a.home{
+	font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
+	font-weight: 300;
+	color: black;
+	text-decoration: none;
 }
 
 li.switchleft{
@@ -9,7 +18,7 @@ li.switchleft{
 }
 
 div.switchright{
-	display:inline-block;
+	display:table;
 }
 
 div.fixed{

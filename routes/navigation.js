@@ -14,12 +14,3 @@ exports.index = function(req, res){
 exports.resume = function(req, res){
  	res.render('resume');
  };
-
-
- /*
-  * GET Contact page
-  */
-
-exports.contact = function(req, res){
- 	res.render('contact');
- };

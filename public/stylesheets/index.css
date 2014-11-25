@@ -1,36 +1,84 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 body{
-	background-color: rgba(160, 206, 148, 0.9);
+	background-color: white;
 	font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
 	font-weight: 300;
 }
 
+.icons{
+	margin-left:35px;
+}
+
+.skype{
+	font-size: 20px;
+}
+
+div.profile_image{
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	margin:auto;
+	background: url("../images/profile.jpg") no-repeat;
+
+}
+
+a.home{
+	color: black;
+	font-weight: 300;
+}
+
 div.navi{
-	color:white;
+	color:black;
 	font-size: 40px;
 	text-align: center;
 	vertical-align: middle;
-	position: absolute;
-	top: 30%;
+	margin-top:50px;
+		/*position: absolute;
+	top: 30%;*/
 }
 
 a, a:hover{
-	color:white;
+	color:black;
 	text-decoration: none;
 }
 
 div.intro{
 	font-size: 20px;
-	width: 70%;
+	
 	float: right;
-	text-align: justify;
+	text-align: left;
 	/*border: dashed 2px white;
 	padding: 15px;
 	border-radius: 24px;*/
 }
 
 div.manu{
-	width:30%;
+	/*width:30%;*/
 	float:left;
+}
+
+@media(max-width: 1050px){
+	div.intro{
+		text-align: left;
+	}
+}
+
+@media(max-width: 700px){
+	div.intro{
+		font-size: 15px;
+		text-align: left;
+	}
+}
+
+@media(max-width: 510px){
+	div.intro{
+		font-size: 13px;
+		text-align: left;
+	}
+	div.manu{
+		margin-left:20px;
+	}
 }

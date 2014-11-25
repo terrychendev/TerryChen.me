@@ -7,14 +7,40 @@ block content
 	header
 	.container-fluid
 		.row
+			.text-center
+				h1
+					a.home(href='/') Terry Chen
+		.row
+			.col-xs-12
+				div.profile_image
+		.row
 			.col-xs-12.navi
-				.col-xs-6
+				.col-xs-3
+				.col-xs-3
 					.row
-						div.intro My Name is Terry. I am a 4th year Engineering student from University of Waterloo. Applying technologies to make people's life easy is what I desire. My objective is to develop useful application with technical competence and practical design.
-				.col-xs-6.manu
-					.row
-						a(href='http://blog.terrychen.me') Blog
+						div.intro 
+							| My name is Terry. 
+							br
+							| I am a 4th year engineering student from University of Waterloo.
+							br
+							| Applying technology to make people's lives easier is what I desire.
+							br
+							| My objective is to develop useful applications with technical competence and practical design.
+				.col-xs-3.manu
 					.row
 						a(href='/resume') Resume
 					.row.contact
-						a(href='/contact') Contact
+						| Contact
+						br
+						.icons
+							a(href="mailto:masterterrychen@gmail.com")
+								i.fa.fa-envelope-square &nbsp
+							a(href="http://ca.linkedin.com/pub/terry-chen/2b/695/ab7/")
+								i.fa.fa-linkedin-square &nbsp
+							a(href="https://github.com/LiHsuanChen")
+								i.fa.fa-github-square &nbsp
+							i.fa.fa-skype
+							.skype
+				.col-xs-3
+block js
+	script(src='/javascripts/index.js')

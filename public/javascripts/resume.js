@@ -2,7 +2,7 @@
 function switchRight(ev){
 	
 	var item = ev.currentTarget.className.split(" ");
-	$("div.switchright").css("opacity", "0.5");
+	$("div.switchright").css("opacity", "0.2");
 	$.each(item, function (index, value){
 		if ( index > 0 ){
 			$("div.switchright." + value ).css("opacity", "1");

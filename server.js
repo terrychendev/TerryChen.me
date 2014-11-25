@@ -6,7 +6,6 @@ var environments = "production";
 
 var express = require('express');
 var navi = require('./routes/navigation');
-var email = require('./routes/email')
 
 var http = require('http');
 var path = require('path');
@@ -40,9 +39,6 @@ if ('development' == app.get('env')) {
 
 app.get('/', navi.index);
 app.get('/resume', navi.resume);
-app.get('/contact', navi.contact);
-app.post('/sendMail', email.sendMail)
-
 
 
 http.createServer(app).listen(port, ipaddress , function(){
